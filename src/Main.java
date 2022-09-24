@@ -9,6 +9,7 @@ public class Main {
         long totalWords = 1000001L;
         float wordsPerPage = 2000.02F;
         double wordsPerBook = 200000.2;
+        System.out.println("task 1");
         System.out.println("Значение переменной books с типом int равно " + books);
         System.out.println("Значение переменной pages с типом byte равно " + pages);
         System.out.println("Значение переменной totalPages с типом short равно " + totalPages);
@@ -26,6 +27,14 @@ public class Main {
         short d = 27897;
         byte e = 67;
 
+        //task3
+        int studentsLudmilaPav = 23;
+        int studentsAnnaSer = 27;
+        int studentsKateAnd = 30;
+        int sheets = 480;
+        float sheetsPerStudent = sheets / (studentsLudmilaPav + studentsAnnaSer + studentsKateAnd);
+        System.out.println("task 3");
+        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
 
 
 
