@@ -61,5 +61,19 @@ public class Main {
         int paintCanBrown = classes * consumptionPerClassBrown;
         System.out.println("task 5");
         System.out.println("В школе, где " + classes + " классов, нужно "+ paintCanWhite + " банок белой краски и " + paintCanBrown + " банок коричневой краски");
+
+        //task6
+        int bananas = 5;
+        int milk = 2;
+        int iceCream = 2;
+        int eggs = 4;
+        int weightPerBanana = 80;
+        int weightPerMilk = 105;
+        int weightPerIceCream = 100;
+        int weightPerEgg = 70;
+        float totalWeight = bananas * weightPerBanana + milk * weightPerMilk + iceCream * weightPerIceCream + eggs * weightPerEgg;
+        float totalWeightKilos = totalWeight / 1000;
+        System.out.println("task 6");
+        System.out.println("Вес завтрака " + totalWeightKilos + " кг");
     }
 }
