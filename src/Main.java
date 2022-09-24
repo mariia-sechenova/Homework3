@@ -52,6 +52,14 @@ public class Main {
         System.out.println("За " + shift3 + " минут машина произвела бутылок "+ capacityShift3 + " штук");
         System.out.println("За " + shift4 + " минут машина произвела бутылок "+ capacityShift4 + " штук");
 
-
+        //task5
+        int paintCanTotal = 120;
+        int consumptionPerClassWhite = 2;
+        int consumptionPerClassBrown = 4;
+        int classes = paintCanTotal / (consumptionPerClassWhite + consumptionPerClassBrown);
+        int paintCanWhite = classes * consumptionPerClassWhite;
+        int paintCanBrown = classes * consumptionPerClassBrown;
+        System.out.println("task 5");
+        System.out.println("В школе, где " + classes + " классов, нужно "+ paintCanWhite + " банок белой краски и " + paintCanBrown + " банок коричневой краски");
     }
 }
