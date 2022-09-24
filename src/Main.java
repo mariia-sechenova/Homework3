@@ -36,7 +36,21 @@ public class Main {
         System.out.println("task 3");
         System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
 
-
+        //task4
+        int capacityPerMinute = 8;
+        int shift1 = 20;
+        int shift2 = 24 * 60;
+        int shift3 = shift2 * 3;
+        int shift4 = shift2 * 30;
+        int capacityShift1 = capacityPerMinute * shift1;
+        int capacityShift2 = capacityPerMinute * shift2;
+        int capacityShift3 = capacityPerMinute * shift3;
+        int capacityShift4 = capacityPerMinute * shift4;
+        System.out.println("task 4");
+        System.out.println("За " + shift1 + " минут машина произвела бутылок "+ capacityShift1 + " штук");
+        System.out.println("За " + shift2 + " минут машина произвела бутылок "+ capacityShift2 + " штук");
+        System.out.println("За " + shift3 + " минут машина произвела бутылок "+ capacityShift3 + " штук");
+        System.out.println("За " + shift4 + " минут машина произвела бутылок "+ capacityShift4 + " штук");
 
 
     }
