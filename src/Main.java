@@ -90,5 +90,27 @@ public class Main {
         System.out.println(days2 + " дней понадобится спортсмену при потере веса на " + lossPerDayGramm2 + " грамм в день");
         System.out.println(daysAverage + " день понадобится спортсмену в среднем");
 
+        //task8
+        int increase = 10;
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKris = 76230;
+        int newSalaryMasha = salaryMasha + salaryMasha * increase / 100;
+        int newSalaryDenis = salaryDenis + salaryDenis * increase / 100;
+        int newSalaryKris = salaryKris + salaryKris * increase / 100;
+        int YearSalaryMasha = salaryMasha * 12;
+        int YearSalaryDenis = salaryDenis * 12;
+        int YearSalaryKris = salaryKris * 12;
+        int YearNewSalaryMasha = newSalaryMasha * 12;
+        int YearNewSalaryDenis = newSalaryDenis * 12;
+        int YearNewSalaryKris = newSalaryKris * 12;
+        int difSalaryMasha = YearNewSalaryMasha - YearSalaryMasha;
+        int difSalaryDenis = YearNewSalaryDenis - YearSalaryDenis;
+        int difSalaryKris = YearNewSalaryKris - YearSalaryKris;
+
+        System.out.println("task 8");
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + difSalaryMasha + " рублей");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + difSalaryDenis + " рублей");
+        System.out.println("Крис теперь получает " + newSalaryKris + " рублей. Годовой доход вырос на " + difSalaryKris + " рублей");
     }
 }
