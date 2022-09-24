@@ -75,5 +75,20 @@ public class Main {
         float totalWeightKilos = totalWeight / 1000;
         System.out.println("task 6");
         System.out.println("Вес завтрака " + totalWeightKilos + " кг");
+
+        //task7
+        int totalWeightToLoseKilos = 7;
+        int grammsPerKilo = 1000;
+        int totalWeightToLoseGram = totalWeightToLoseKilos * grammsPerKilo;
+        int lossPerDayGramm1 = 250;
+        int lossPerDayGramm2 = 500;
+        float days1 = totalWeightToLoseGram / lossPerDayGramm1;
+        float days2 = totalWeightToLoseGram / lossPerDayGramm2;
+        float daysAverage = (days1 + days2) / 2;
+        System.out.println("task 7");
+        System.out.println(days1 + " дней понадобится спортсмену при потере веса на " + lossPerDayGramm1 + " грамм в день");
+        System.out.println(days2 + " дней понадобится спортсмену при потере веса на " + lossPerDayGramm2 + " грамм в день");
+        System.out.println(daysAverage + " день понадобится спортсмену в среднем");
+
     }
 }
